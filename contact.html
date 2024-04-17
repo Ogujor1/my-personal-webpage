@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+</head>
+<body>
+  <h1>My Contact Details</h1>
+  <h3>My Fictional Address</h3>
+  <h3>08035796380 </h3>
+  <h3>michael.ogujor@gmail.com</h3>
+  <hr>
+  <form action="mailto: michael.ogujor@gmail.com" method="post" enctype="text/plain">
+    <label for="full-name"></label>Name
+    <input type="text" name="full-name" id=""><br>
+
+    <label for="email"></label>Email
+    <input type="email" name="email" id=""><br>
+
+    <label for="phone-number"></label>Phone Number
+    <input type="number" name="phone-number" id=""><br>
+
+    <label for="gender"></label>Gender: <br>
+    <input type="radio" name="gender">Male <br>
+    <input type="radio" name="gender">Female <br>
+    <input type="radio" name="gender">Not Saying <br>
+
+    <label for="list"></label> Would You like To Sign Up To Our Newsletters?
+    <input type="checkbox" name="list">Yes <br>
+
+    <label for="class">Choose A Lecture</label>
+    <select name="class" id=""> 
+      <option value="Python" name="class">Python</option>
+      <option value="Javascript" name="class">Javascript</option>
+      <option value="CSS" name="class">CSS</option>
+      <option value="HTML" name="class">HTML</option>
+      <option value="Data Analysis" name="class">Data Analysis</option>
+   </select> <br>
+
+   <textarea name="message" id="" cols="30" rows="10">Leave A Message</textarea> <br>
+   <button type="submit">Submit</button> <br>
+   <a href="index.html">Go Back To Home</a>
+  </form>
+</body>
+</html>
